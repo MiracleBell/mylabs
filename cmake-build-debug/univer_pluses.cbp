@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="univer_pluses"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="univer_pluses">
+				<Option output="C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug/univer_pluses.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 univer_pluses"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="univer_pluses/fast">
+				<Option output="C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug/univer_pluses.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 univer_pluses/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\L\CLionProjects\univer_pluses\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/main.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task0/include/Box.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task0/include/BoxService.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task0/include/Container.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task0/src/Container.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task1/include/DynamicArray.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task1/src/DynamicArray.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task2/include/Iterator.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task2/include/Queue.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tasks/task2/src/Iterator.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/include/TestTask0.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/include/TestTask1.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/include/task2/TestIterator.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/include/task2/TestQueue.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/include/task2/TestTask2.h">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/src/TestTask0.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/src/TestTask1.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/src/task2/TestIterator.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/src/task2/TestQueue.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/tests/src/task2/TestTask2.cpp">
+			<Option target="univer_pluses"/>
+		</Unit>
+		<Unit filename="C:/Users/L/CLionProjects/univer_pluses/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

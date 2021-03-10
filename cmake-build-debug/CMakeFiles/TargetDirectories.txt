@@ -1,0 +1,3 @@
+C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug/CMakeFiles/univer_pluses.dir
+C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/L/CLionProjects/univer_pluses/cmake-build-debug/CMakeFiles/rebuild_cache.dir
