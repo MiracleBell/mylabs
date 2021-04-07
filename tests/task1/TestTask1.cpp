@@ -1,7 +1,10 @@
 //
 // Created by L on 09.03.2021.
 //
-#include "../include/TestTask1.h"
+#include "TestTask1.h"
+
+
+using namespace tt1;
 
 void testTask1() {
     std::cout << "---------------------------------------------" << std::endl;

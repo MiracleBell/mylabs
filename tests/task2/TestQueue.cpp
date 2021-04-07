@@ -2,8 +2,10 @@
 // Created by L on 10.03.2021.
 //
 
-#include "../../include/task2/TestQueue.h"
+#include "TestQueue.h"
 
+
+using namespace tt2;
 
 bool testConstructorsAndGetters1() {
     try {

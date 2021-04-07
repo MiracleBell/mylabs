@@ -1,8 +1,9 @@
 //
 // Created by L on 09.03.2021.
 //
-#include "../include/TestTask0.h"
+#include "TestTask0.h"
 
+using namespace tt0;
 
 void testTask0() {
     std::cout << "---------------------------------------------" << std::endl;
@@ -19,9 +20,9 @@ void testTask0() {
 }
 
 bool testClassBox() {
-    Box box1(1, 1, 1, 1, 10);
-    Box box2(2, 2, 2, 2, 20);
-    Box box3(1, 1, 1, 1, 10);
+    tt0::Box box1(1, 1, 1, 1, 10);
+    tt0::Box box2(2, 2, 2, 2, 20);
+    tt0::Box box3(1, 1, 1, 1, 10);
 
     if (box1 == box2) {
         return false;

@@ -5,7 +5,7 @@
 #ifndef UNIVER_PLUSES_TESTQUEUE_H
 #define UNIVER_PLUSES_TESTQUEUE_H
 
-#include "../../../tasks/task2/include/Queue.h"
+#include "../../tasks/task2/Queue.h"
 #include "iostream"
 
 bool testConstructorsAndGetters1();

@@ -8,62 +8,64 @@
 #include <exception>
 #include <ostream>
 
-class DynamicArray {
-private:
-    static int const DEFAULT_ARRAY_SIZE = 10;
-    static int const DEFAULT_ARRAY_BUFFER = 10;
-    int *array;
-    int size;
-    int buffer;
+namespace tt1 {
+    class DynamicArray {
+    private:
+        static int const DEFAULT_ARRAY_SIZE = 10;
+        static int const DEFAULT_ARRAY_BUFFER = 10;
+        int *array;
+        int size;
+        int buffer;
 
-public:
-    DynamicArray();
+    public:
+        DynamicArray();
 
-    DynamicArray(int const size);
+        DynamicArray(int const size);
 
-    DynamicArray(int const size, int const default_element);
+        DynamicArray(int const size, int const default_element);
 
-    DynamicArray(int const size, int const buffer, int const default_element);
+        DynamicArray(int const size, int const buffer, int const default_element);
 
-    DynamicArray(const DynamicArray &other);
+        DynamicArray(const DynamicArray &other);
 
-    DynamicArray(const DynamicArray &&other);
+        DynamicArray(const DynamicArray &&other);
 
-    virtual ~DynamicArray();
+        virtual ~DynamicArray();
 
-    int getSize();
+        int getSize();
 
-    void resize(int const new_size);
+        void resize(int const new_size);
 
-    void reserve(int const new_buffer);
+        void reserve(int const new_buffer);
 
-    int capacity();
+        int capacity();
 
-    void pushBack(int const value);
+        void pushBack(int const value);
 
-    int popBack();
+        int popBack();
 
-    int &operator[](const int index);
+        int &operator[](const int index);
 
-    DynamicArray &operator=(const DynamicArray &other);
+        DynamicArray &operator=(const DynamicArray &other);
 
-    bool operator==(const DynamicArray &other) const;
+        bool operator==(const DynamicArray &other) const;
 
-    bool operator!=(const DynamicArray &other) const;
+        bool operator!=(const DynamicArray &other) const;
 
-    bool operator<(const DynamicArray &other) const;
+        bool operator<(const DynamicArray &other) const;
 
-    bool operator>(const DynamicArray &other) const;
+        bool operator>(const DynamicArray &other) const;
 
-    bool operator<=(const DynamicArray &other) const;
+        bool operator<=(const DynamicArray &other) const;
 
-    bool operator>=(const DynamicArray &other) const;
+        bool operator>=(const DynamicArray &other) const;
 
-    DynamicArray operator+(const DynamicArray &other) const;
+        DynamicArray operator+(const DynamicArray &other) const;
 
-    friend std::ostream &operator<<(std::ostream &os, const DynamicArray &obj);
+        friend std::ostream &operator<<(std::ostream &os, const DynamicArray &obj);
 
-    friend std::istream &operator>>(std::istream &is, const DynamicArray &obj);
-};
+        friend std::istream &operator>>(std::istream &is, const DynamicArray &obj);
+    };
 
+}
 #endif //UNIVER_PLUSES_DYNAMICARRAY_H

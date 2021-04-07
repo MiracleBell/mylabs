@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include "TestQueue.h"
-#include "TestIterator.h"
 
 
 void testTask2();

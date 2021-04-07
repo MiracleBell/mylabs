@@ -10,35 +10,37 @@
 #include <exception>
 #include "Box.h"
 
-class Container {
-private:
-    std::vector<Box> boxes;
-    int length;
-    int width;
-    int height;
-    float maxWeight;
+namespace tt0 {
+    class Container {
+    private:
+        std::vector<Box> boxes;
+        int length;
+        int width;
+        int height;
+        float maxWeight;
 
-public:
-    Container(int length, int width, int height, float maxWeight);
+    public:
+        Container(int length, int width, int height, float maxWeight);
 
-    int getCountOfBoxes() const;
+        int getCountOfBoxes() const;
 
-    float getTotalWeight() const;
+        float getTotalWeight() const;
 
-    int getTotalSum() const;
+        int getTotalSum() const;
 
-    Box getByIndex(int) const;
+        Box getByIndex(int) const;
 
-    void addBox(Box box);
+        void addBox(Box box);
 
-    void removeByIndex(int);
+        void removeByIndex(int);
 
-    friend std::ostream &operator<<(std::ostream &out, const Container &container);
+        friend std::ostream &operator<<(std::ostream &out, const Container &container);
 
-    friend std::istream &operator>>(std::istream &in, Container &container);
+        friend std::istream &operator>>(std::istream &in, Container &container);
 
-    Box &operator[](const int index);
-};
+        Box &operator[](const int index);
+    };
 
+}
 
 #endif //UNIVER_PLUSES_CONTAINER_H

@@ -1,7 +1,7 @@
 //
 // Created by L on 09.03.2021.
 //
-#include "../../include/task2/TestTask2.h"
+#include "TestTask2.h"
 
 
 void testTask2() {
